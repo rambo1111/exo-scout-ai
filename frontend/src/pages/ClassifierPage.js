@@ -31,7 +31,7 @@ function ClassifierPage() {
         setFormData(data); // Store the submitted data
 
         try {
-            const response = await axios.post('http://127.0.0.1:8000/predict', data);
+            const response = await axios.post('https://exo-scout-ai-backend.onrender.com/predict', data);
             setPrediction(response.data);
         } catch (err) {
             setError('Failed to get a prediction. Please ensure the backend server is running and accessible.');
@@ -60,5 +60,6 @@ function ClassifierPage() {
         </div>
     );
 }
+
 
 export default ClassifierPage;
