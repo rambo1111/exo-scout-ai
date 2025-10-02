@@ -1,0 +1,122 @@
+/* General Body Styles */
+body {
+    overflow-x: hidden;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+}
+
+.App { text-align: center; }
+
+/* Header and Navigation */
+.App-header {
+    background-color: #161b22;
+    padding: 20px;
+    border-bottom: 1px solid #30363d;
+}
+h1 { font-size: 2.5rem; color: #58a6ff; margin-top: 0; margin-bottom: 1rem; }
+nav { display: flex; justify-content: center; gap: 1rem; }
+nav a {
+    color: #8b949e;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: background-color 0.2s, color 0.2s;
+}
+nav a:hover { background-color: #30363d; color: #c9d1d9; }
+nav a.active { color: #fff; background-color: #58a6ff; }
+
+/* Main Content Layout */
+main { padding: 20px; max-width: 1200px; margin: 0 auto; }
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+@media (min-width: 1024px) { .container { flex-direction: row; } }
+
+/* Form & Results Containers */
+.form-container { flex: 2; }
+.results-container { flex: 1; }
+.form-container, .results-container, .insight-card, .pipeline-step {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+h2 { margin-top: 0; }
+
+/* Form Specifics */
+details { margin-bottom: 1rem; }
+summary { cursor: pointer; font-weight: bold; margin-bottom: 0.5rem; }
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+.form-group { display: flex; flex-direction: column; }
+.form-group label {
+    margin-bottom: 5px; font-size: 0.8rem;
+    text-transform: capitalize; color: #8b949e;
+}
+.form-group input {
+    background-color: #0d1117; border: 1px solid #30363d;
+    border-radius: 6px; padding: 8px 12px; color: #c9d1d9; font-size: 1rem;
+}
+.form-group input:focus {
+    outline: none; border-color: #58a6ff;
+    box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.3);
+}
+.form-actions {
+    margin-top: 20px; display: flex;
+    justify-content: flex-end; gap: 10px;
+}
+
+/* Buttons and Messages */
+button {
+    background-color: #238636; color: white;
+    border: 1px solid rgba(240, 246, 252, 0.1); border-radius: 6px;
+    padding: 10px 16px; font-size: 1rem; font-weight: 500;
+    cursor: pointer; transition: background-color 0.2s;
+}
+button:hover { background-color: #2ea043; }
+button:disabled { background-color: #555; cursor: not-allowed; }
+.secondary-button { background-color: #21262d; }
+.secondary-button:hover { background-color: #30363d; }
+.error-message, .prediction-FALSE-POSITIVE { color: #f85149; }
+.prediction-CANDIDATE { color: #d29922; }
+.prediction-CONFIRMED { color: #3fb950; }
+
+/* Results & Insights Specifics */
+.prediction-card, .justification-card { margin-top: 20px; }
+.justification-card { border-top: 1px solid #30363d; padding-top: 20px; }
+.justification-card ol { padding-left: 20px; }
+.justification-card li { margin-bottom: 0.5rem; }
+.insights-container, .pipeline-container { text-align: left; }
+.report-card {
+    background-color: #0d1117; padding: 1rem;
+    border-radius: 6px; overflow-x: auto;
+}
+
+/* Pipeline Specifics */
+.pipeline-step { display: flex; align-items: flex-start; }
+.step-number {
+    font-size: 2rem; font-weight: bold; color: #58a6ff;
+    margin-right: 20px;
+    border: 2px solid #58a6ff; border-radius: 50%;
+    width: 50px; height: 50px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+}
+.step-content { flex-grow: 1; }
+
+.plot-card {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 20px;
+    margin-top: 20px;
+}
