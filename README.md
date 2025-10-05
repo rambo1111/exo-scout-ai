@@ -1,5 +1,16 @@
 # 🌌 ExoScout AI - Exoplanet Detection & Classification System
+---
+## 📹 **Demo Video**
 
+<div align="center">
+  
+[![ExoScout AI Demo](https://img.youtube.com/vi/r6tQN-UcgCo/maxresdefault.jpg)](http://youtube.com/watch?v=r6tQN-UcgCo&feature=youtu.be)
+
+*Click above to watch the full demonstration of ExoScout AI in action! 🚀*
+
+</div>
+
+---
 <div align="center">
 
 ![Black Hole](frontend/public/black-hole.png)
@@ -25,23 +36,10 @@
 
 ---
 
-## � **Demo Video**
 
-<div align="center">
-  
-[![ExoScout AI Demo](https://img.youtube.com/vi/r6tQN-UcgCo/maxresdefault.jpg)](http://youtube.com/watch?v=r6tQN-UcgCo&feature=youtu.be)
 
-*Click above to watch the full demonstration of ExoScout AI in action! 🚀*
+## 🌟 **Project Overview**
 
-</div>
-
----
-
-## �🌟 **Project Overview**
-
-<div align="center">
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3M5dGJkOGh0YzN1bmlxY2RjMm15OXRrZjM5b3BxY3VwbXltcmt6NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tPqTOGf3MMAqvXW/giphy.gif" width="400" alt="Space Animation">
-</div>
 
 ExoScout AI is an advanced machine learning system designed to detect and classify exoplanets using transit photometry data from space telescopes like Kepler, K2, and TESS. Our system combines cutting-edge AI algorithms with an intuitive web interface to make exoplanet discovery accessible to researchers, students, and space enthusiasts.
 
@@ -306,9 +304,7 @@ This project represents cutting-edge research in:
   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHF2bzE5Y2dhYXV5ZDdmZjM3czBrZjZsbGQ4cGd0bmtxc21xbXEwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1J9u3TZfpmeDLkD6/giphy.gif" width="150" alt="Contact">
 </div>
 
-- 📧 **Email**: [contact@exoscout-ai.com](mailto:contact@exoscout-ai.com)
 - 🐙 **GitHub**: [@rambo1111](https://github.com/rambo1111)
-- 🎬 **YouTube**: [Watch Demo](http://youtube.com/watch?v=r6tQN-UcgCo&feature=youtu.be)
 - 💬 **Issues**: [Report Bugs](https://github.com/rambo1111/exo-scout-ai/issues)
 
 ---
