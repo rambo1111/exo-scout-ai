@@ -25,7 +25,19 @@
 
 ---
 
-## 🌟 **Project Overview**
+## � **Demo Video**
+
+<div align="center">
+  
+[![ExoScout AI Demo](https://img.youtube.com/vi/r6tQN-UcgCo/maxresdefault.jpg)](http://youtube.com/watch?v=r6tQN-UcgCo&feature=youtu.be)
+
+*Click above to watch the full demonstration of ExoScout AI in action! 🚀*
+
+</div>
+
+---
+
+## �🌟 **Project Overview**
 
 <div align="center">
   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3M5dGJkOGh0YzN1bmlxY2RjMm15OXRrZjM5b3BxY3VwbXltcmt6NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tPqTOGf3MMAqvXW/giphy.gif" width="400" alt="Space Animation">
@@ -55,18 +67,6 @@ ExoScout AI is an advanced machine learning system designed to detect and classi
       </td>
     </tr>
   </table>
-</div>
-
----
-
-## 🎬 **Demo Video**
-
-<div align="center">
-  
-[![ExoScout AI Demo](https://img.youtube.com/vi/r6tQN-UcgCo/maxresdefault.jpg)](http://youtube.com/watch?v=r6tQN-UcgCo&feature=youtu.be)
-
-*Click above to watch the full demonstration of ExoScout AI in action! 🚀*
-
 </div>
 
 ---
